@@ -1,0 +1,144 @@
+body { 
+    margin: 0px;                /* Убирает отступы */
+padding: 0px;               /* Убирает внутренние отступы */
+box-sizing: border-box;   /* Включает box-sizing для расчета размеров */
+font-family: 'Inter', sans-serif;
+    }
+
+.container {
+    width: 100%;
+    display: flex;
+}
+.already-a-member {
+    display: ruby;
+}
+
+.left-block {
+    width: 1312px;
+}
+
+.right-block {
+
+    background-color: beige;
+}
+
+.greeting-info h1 {
+
+    margin-top: 150px;
+}
+
+.sign-in { 
+    
+    text-align: right;
+    margin-right: 50px;
+}
+
+.line {
+    text-align: center;
+}
+.greeting-info {
+    font-size: 22px;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.greeting {
+    width: 340px;
+    color: gray;
+}
+
+.form {
+    display: flex;
+    max-width: 700px; /* Ограничение ширины формы */
+    margin: 0 auto; /* Центрирование формы */
+
+}
+
+.form-style {
+    width: auto;
+    height: auto;
+    padding: 8px;
+    border-radius: 4px;
+    display: grid;
+
+}
+
+.radio-group {
+    border-radius: 0px;
+        display: flex;
+}
+
+.radio-group label {
+
+ display: flex;
+      align-items: center;
+      gap: 4px;
+}
+
+
+.form-group {
+    display: flex;
+    padding: 8px;
+      border-radius: 4px;
+}
+
+
+input {
+    width: 300px;
+    height: 40px;
+}
+
+.button {
+    display: inline-block;
+    position: relative;
+    padding: 7px 16.1px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+   margin: 2px;
+}
+
+.button:hover{
+    transition: 0.3px;
+  
+    border-color:blue
+}
+
+.button input[type="radio"] {
+    display: none;
+  }
+
+.marginator {
+    margin: 15px;
+
+}
+
+
+.password-style {
+    display: flex;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+
+.register-button {
+
+    background-color:rgb(95, 84, 255); 
+  
+    width: 100px;
+    height: 40px;
+    color:white;
+    font-weight: bold;
+    border: none;
+
+}
+
+
+.button {
+    padding: 15px 15px;
+  
+}
+
